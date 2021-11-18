@@ -1,0 +1,42 @@
+.container {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+.container-child {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.block {
+    display: block;
+    margin:auto;
+    width: 40%;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: auto;
+    border: 5px;
+    border-right: 0px;
+    border-style: solid;
+}
+
+.flex-child-end {
+    flex: auto;
+    border: 5px;
+    border-style: solid;
+}
