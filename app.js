@@ -52,7 +52,7 @@ window.addEventListener("load", function(){
         vRandom = Math.floor(Math.random()*vegetable.length);
         coRandom = Math.floor(Math.random()*condiment.length);
         bRandom = Math.floor(Math.random()*bread.length);
-        sandwich.innerHTML = `${protein[pRandom]}, ${cheese[chRandom]}, ${vegetable[vRandom]}, ${condiment[coRandom]} on ${bread[bRandom]}`;
+        sandwich.innerHTML = `${protein[pRandom]}, ${cheese[chRandom]}, ${vegetable[vRandom]} with ${condiment[coRandom]} on ${bread[bRandom]}`;
     });
 })
 
