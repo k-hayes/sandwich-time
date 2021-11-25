@@ -46,8 +46,13 @@ window.addEventListener("load", function(){
     condimentsChild.innerHTML = `<div>${condiments}</div>`;
     
 
-    btn.addEventListener('click', function(){   
-        sandwich.innerHTML = `${protein[1]}, ${cheese[2]}, ${vegetable[1]}, ${condiment[1]} on ${bread[0]}`;
+    btn.addEventListener('click', function(){
+        pRandom = Math.floor(Math.random()*protein.length);
+        chRandom = Math.floor(Math.random()*cheese.length);
+        vRandom = Math.floor(Math.random()*vegetable.length);
+        coRandom = Math.floor(Math.random()*condiment.length);
+        bRandom = Math.floor(Math.random()*bread.length);
+        sandwich.innerHTML = `${protein[pRandom]}, ${cheese[chRandom]}, ${vegetable[vRandom]}, ${condiment[coRandom]} on ${bread[bRandom]}`;
     });
 })
 
